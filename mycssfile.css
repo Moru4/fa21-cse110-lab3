@@ -1,11 +1,14 @@
 body {
     background-color: lightblue;
+    /* changes the background color to lightblue */
 }
 h1 {
     color: rgb(100, 200, 150);
+    /* change title color to green*/
 }
 h2 {
     color: #fd9;
+    /* change subtitle color to yellow */
 }
 h4 {
     color: hsl(1, 75, 48);
@@ -13,14 +16,21 @@ h4 {
 ol {
     border: 4px dotted orangered;
     padding: .4em;
+    /* border around ordered list */
 }
 ul {
     border: 3pt solid hsl(10, 80, 72);
     padding: .3lh;
+    /* border arounf unordered list */
 }
 p {
     font-size: 2.1rem;
+    /* change font size */
 }
 img {
     border: .4cm;
+    height: 300px;
+}
+* {
+    font-family: sans-serif;
 }
