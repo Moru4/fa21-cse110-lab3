@@ -11,7 +11,7 @@ h2 {
     /* change subtitle color to yellow */
 }
 h4 {
-    color: hsl(1, 75, 48);
+    color: rgb(1, 75, 48);
 }
 ol {
     border: 4px dotted orangered;
@@ -19,7 +19,7 @@ ol {
     /* border around ordered list */
 }
 ul {
-    border: 3pt solid hsl(10, 80, 72);
+    border: 3px solid rgb(212, 120, 102);
     padding: .3lh;
     /* border arounf unordered list */
 }
@@ -28,7 +28,7 @@ p {
     /* change font size */
 }
 img {
-    border: .4cm;
+    border: 4px;
     height: 300px;
 }
 * {
