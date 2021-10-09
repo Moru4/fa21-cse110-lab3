@@ -5,6 +5,7 @@ body {
 h1 {
     color: rgb(100, 200, 150);
     /* change title color to green*/
+    position: sticky;
 }
 h2 {
     color: #fd9;
@@ -30,6 +31,8 @@ p {
 img {
     border: 4px;
     height: 300px;
+    /* position: sticky;
+    top: 30px; */
 }
 * {
     font-family: sans-serif;
