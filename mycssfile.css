@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue
+}
+h1 {
+    color: rgb(100, 200, 150)
+}
+h2 {
+    color: #fd9
+}
+h4 {
+    color: hsl(1, 75, 48)
+}
