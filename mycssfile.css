@@ -5,7 +5,9 @@ body {
 h1 {
     color: rgb(100, 200, 150);
     /* change title color to green*/
+    position: -webkit-sticky;
     position: sticky;
+    top: 10px;
 }
 h2 {
     color: #fd9;
