@@ -1,12 +1,26 @@
 body {
-    background-color: lightblue
+    background-color: lightblue;
 }
 h1 {
-    color: rgb(100, 200, 150)
+    color: rgb(100, 200, 150);
 }
 h2 {
-    color: #fd9
+    color: #fd9;
 }
 h4 {
-    color: hsl(1, 75, 48)
+    color: hsl(1, 75, 48);
+}
+ol {
+    border: 4px dotted orangered;
+    padding: .4em;
+}
+ul {
+    border: 3pt solid hsl(10, 80, 72);
+    padding: .3lh;
+}
+p {
+    font-size: 2.1rem;
+}
+img {
+    border: .4cm;
 }
