@@ -50,6 +50,7 @@ video {
     top: 10px;
     left: 20px;
     background: rgb(30, 175, 197);
+    max-height: 425px;
 }
 p {
     width: 200px;
