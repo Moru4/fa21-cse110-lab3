@@ -44,6 +44,12 @@ img {
     position: sticky;
     top: 15px;
 }
+video {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: rgb(30, 175, 197);
+}
 * {
     font-family: sans-serif;
 }
