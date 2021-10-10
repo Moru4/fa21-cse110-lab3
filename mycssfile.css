@@ -64,6 +64,21 @@ video {
 p {
     width: 200px;
 }
+@media (min-aspect-ratio: 9/5) {
+    p {
+        background: hsla(90, 75%, 45%, 1);
+    }
+}
+@media (max-aspect-ratio: 4/3) {
+    p {
+        background: hsl(50, 60%, 50%);
+    }
+}
+@media (aspect-ratio:1/1) {
+    p {
+        background: rgb(20, 50, 180);
+    }
+}
 * {
     font-family: sans-serif;
 }
