@@ -22,6 +22,7 @@ h2 {
 }
 h4 {
     color: rgb(1, 75, 48);
+    max-width: 10ch;
 }
 ol {
     border: 4px dotted orangered;
@@ -49,6 +50,9 @@ video {
     top: 10px;
     left: 20px;
     background: rgb(30, 175, 197);
+}
+p {
+    width: 200px;
 }
 * {
     font-family: sans-serif;
