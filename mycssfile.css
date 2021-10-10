@@ -9,11 +9,13 @@ h1 {
     position: sticky;
     top: 10px; */
 }
+/*
 #meetingtitle {
     position: -webkit-sticky;
     position; sticky;
     top: 10px;
 }
+*/
 h2 {
     color: #fd9;
     /* change subtitle color to yellow */
@@ -38,8 +40,15 @@ p {
 img {
     border: 4px;
     height: 300px;
-    /* position: sticky;
-    top: 30px; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15px;
+}
+video {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background: rgb(30, 175, 197);
 }
 * {
     font-family: sans-serif;
