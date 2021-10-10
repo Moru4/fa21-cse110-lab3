@@ -9,13 +9,6 @@ h1 {
     position: sticky;
     top: 10px; */
 }
-/*
-#meetingtitle {
-    position: -webkit-sticky;
-    position; sticky;
-    top: 10px;
-}
-*/
 h2 {
     color: #fd9;
     /* change subtitle color to yellow */
@@ -60,7 +53,7 @@ img {
     flex-direction: row;
     margin: 8px 8px 8px 8px;
 }
-video {
+video + audio {
     position: relative;
     top: 10px;
     left: 20px;
@@ -70,7 +63,7 @@ video {
 #container {
     display: grid;
 }
-p {
+p ~ h4 {
     width: 200px;
 }
 @media (min-aspect-ratio: 9/5) {
@@ -88,11 +81,15 @@ p {
         background: rgb(20, 50, 180);
     }
 }
+/* aspect ratio */
 button:hover {
     color: lightgoldenrodyellow;
 }
 form:active {
     color: green;
+}
+form > datalist {
+    background-color: darkcyan;
 }
 * {
     font-family: sans-serif;
