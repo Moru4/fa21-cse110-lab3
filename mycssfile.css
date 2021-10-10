@@ -88,6 +88,12 @@ p {
         background: rgb(20, 50, 180);
     }
 }
+button:hover {
+    color: lightgoldenrodyellow;
+}
+form:active {
+    color: green;
+}
 * {
     font-family: sans-serif;
 }
